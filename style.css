@@ -20,7 +20,7 @@ html, body {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 1em;
 }
@@ -36,6 +36,8 @@ html, body {
     margin-bottom: 1em;
     border: 1px solid black;
     padding: 5px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .total_budget {
@@ -57,6 +59,7 @@ input {
 
 /* Tablet/Desktop overrides */
 @media(min-width: 681px) {}
+}
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
